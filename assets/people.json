@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mónica Sabarots",
+    "role": "Subdirectora Comercial",
+    "photo": "momica7",
+    "phone": "5554792690",
+    "image": "assets/img/momica7.png"
+  },
+  {
+    "name": "Leonel Catillejos",
+    "role": "Gerente Comercial",
+    "photo": "leo",
+    "phone": "5539997925",
+    "image": "assets/img/leo.png"
+  },
+  {
+    "name": "Hans Josimar Ayala",
+    "role": "Coordinador Morelia",
+    "photo": "hans",
+    "phone": "5561308350",
+    "image": "assets/img/hans.png"
+  },
+  {
+    "name": "Raymundo Acuña",
+    "role": "KAM Sanaré",
+    "photo": "ant",
+    "phone": "5580503016",
+    "image": "assets/img/ant.png"
+  },
+  {
+    "name": "América Gómez",
+    "role": "KAM Sanaré",
+    "photo": "ame",
+    "phone": "5580126718",
+    "image": "assets/img/ame.png"
+  }
+]
