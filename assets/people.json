@@ -4,13 +4,27 @@
     "role": "Gerente Comercial",
     "photo": "leo",
     "phone": "5539997925",
-    "image": "assets/img/leo.png"
+    "image": "assets/img/leon.mp4"
   },
   {
     "name": "Hans Josimar Ayala",
     "role": "Coordinador Morelia",
     "photo": "hans",
     "phone": "5561308350",
-    "image": "assets/img/hans.png"
+    "image": "assets/img/hans.mp4"
+  },
+  {
+    "name": "Montserrat Flores",
+    "role": "Coordinadora Toluca",
+    "photo": "Monse",
+    "phone": "5578781078",
+    "image": "assets/img/Monse.mp4"
+  },
+  {
+    "name": "Yesica Marlen Irra",
+    "role": "Coordinadora CDMX",
+    "photo": "Jessi",
+    "phone": "5552184351",
+    "image": "assets/img/Jessi.mp4"
   }
 ]

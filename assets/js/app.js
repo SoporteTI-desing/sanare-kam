@@ -19,6 +19,19 @@ function iconWhatsapp(){
   </svg>`;
 }
 
+
+function mediaMarkup(p){
+  const src = (p && p.image) ? String(p.image) : '';
+  const name = (p && p.name) ? String(p.name) : '';
+  if (/\.mp4(\?|$)/i.test(src)){
+    return `<video src="${src}" autoplay muted loop playsinline preload="metadata"></video>`;
+  }
+  if (src.endsWith('.svg')){
+    return `<object type="image/svg+xml" data="${src}" aria-label="${name}"></object>`;
+  }
+  return `<img src="${src}" alt="${name}">`;
+}
+
 function buildSlides(data){
   const carousel = $('.carousel');
   const dots = $('.dots');
@@ -26,7 +39,7 @@ function buildSlides(data){
     const slide = document.createElement('div');
     slide.className = 'slide';
     slide.innerHTML = `
-      ${p.image.endsWith('.svg') ? `<object type="image/svg+xml" data="${p.image}" aria-label="${p.name}"></object>` : `<img src="${p.image}" alt="${p.name}">`}
+      ${mediaMarkup(p)}
       <div class="caption">
         <div class="person">
           <span class="name">${p.name}</span>
@@ -53,7 +66,7 @@ function buildGrid(data){
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-      ${p.image.endsWith('.svg') ? `<object type="image/svg+xml" data="${p.image}" aria-label="${p.name}"></object>` : `<img src="${p.image}" alt="${p.name}">`}
+      ${mediaMarkup(p)}
       <div class="info">
         <div>
           <div class="name">${p.name}</div>
@@ -87,9 +100,7 @@ function openModal(p){
     <div class="inner">
       <button class="closebtn" aria-label="Cerrar">✕</button>
       <div class="media">
-        ${p.image.endsWith('.svg')
-          ? `<object type="image/svg+xml" data="${p.image}" aria-label="${p.name} grande"></object>`
-          : `<img src="${p.image}" alt="${p.name} grande">`}
+        ${mediaMarkup(p)}
       </div>
       <div class="info">
         <div>
