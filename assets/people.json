@@ -12,5 +12,33 @@
     "photo": "Monse",
     "phone": "5578781078",
     "image": "assets/img/Monse.mp4"
+  },
+  {
+    "name": "Alain Ramirez",
+    "role": "KAM Sanaré",
+    "photo": "alain-ramirez",
+    "phone": "5564822884",
+    "image": "assets/img/alain-ramirez.mp4"
+  },
+  {
+    "name": "Anayely Tapia",
+    "role": "KAM Sanaré",
+    "photo": "anayely-tapia",
+    "phone": "5579681304",
+    "image": "assets/img/anayely-tapia.mp4"
+  },
+  {
+    "name": "Oscar Rangel",
+    "role": "KAM Sanaré",
+    "photo": "oscar-rangel",
+    "phone": "5579681460",
+    "image": "assets/img/oscar-rangel.mp4"
+  },
+  {
+    "name": "Dayana Valencia",
+    "role": "KAM Sanaré",
+    "photo": "dayana-valencia",
+    "phone": "5669988684",
+    "image": "assets/img/dayana-valencia.mp4"
   }
 ]
